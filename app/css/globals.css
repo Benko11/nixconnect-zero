@@ -1,0 +1,21 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(220, 5%, 10%);
+  --foreground: hsl(220, 5%, 90%);
+  --card-background: hsl(0, 0%, 20%);
+  --primary: hsl(220, 70%, 70%);
+  --secondary: hsl(12, 80%, 27%);
+  --tertiary: hsl(300, 80%, 30%);
+  --error: hsl(60, 100%, 50%);
+}
+
+::selection {
+  background: var(--secondary);
+  color: var(--foreground);
+}
